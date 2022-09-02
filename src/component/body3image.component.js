@@ -83,7 +83,7 @@ return(
     </div>
   </div>
   </div>
-
+  <Owldemo1/>
   <div class="body3image pt-5">
   <div class="col-lg-12 px-3">
     <img src="images\workstyle.jpg" class="d-block w-100" alt="image"/>

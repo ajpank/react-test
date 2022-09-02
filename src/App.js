@@ -23,13 +23,8 @@ function App() {
         <Route path='' component={Salestripe} />
         <Route path='' component={Heroslider} />
         <Route path='' component={body3image} />
-        <div className="App">  
-          <Owldemo1/>  
-        </div>
-        {/* <Route path='' component={Owldemo1} /> */}
         <Route exact path='/Product' component={Product} />
         <Route exact path='/Category' component={Category} />
-       
         <Footer/>
         <Route exact path='/Footer' component={Footer} />
       

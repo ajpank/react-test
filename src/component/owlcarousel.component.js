@@ -1,12 +1,5 @@
 import React,{Component} from 'react';  
-
-import OwlCarousel from 'react-owl-carousel';
-//import OwlCarousel from 'react-owl-carousel';  
-//import 'owl.carousel/dist/assets/owl.carousel.css';  
-//import 'node_modules/owl.theme.default.css';  
-//import 'node_modules/owlCarousel/dist/assets/owl.carousel.css'
-//import '../../../testproject/node_modules/owl'
-//import './owl.css';  
+import OwlCarousel from 'react-owl-carousel'; 
 export class Owldemo1 extends Component {  
         render()  
         {  
@@ -16,7 +9,7 @@ export class Owldemo1 extends Component {
           className="owl-theme"  
           loop  
           nav  
-          margin={8} >  
+          margin={10} >  
            <div><img  className="img" src= {'images/slide1.jpg'}/></div>  
            <div><img  className="img" src= {'images/slide1.jpg'}/></div>  
            <div><img  className="img" src= {'images/slide1.jpg'}/></div>  
